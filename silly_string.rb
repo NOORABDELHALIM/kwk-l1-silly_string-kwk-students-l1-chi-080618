@@ -51,5 +51,5 @@ puts proper_sentence
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
-sentance = sentence.gsub("A", "O").gsub("a", "o")
+sentence = sentence.gsub("A", "O").gsub("a", "o")
 puts sentence
