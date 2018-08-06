@@ -53,4 +53,4 @@ sentence.gsub
 
 sentence = sentence # Add your gsub chain here
 
-puts sentence
+puts sentence.gsub
